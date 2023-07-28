@@ -1,5 +1,6 @@
 import React from "react";
 import "./accomodation.css";
+import { Container } from "react-bootstrap";
 
 const data = [
     {
@@ -21,7 +22,7 @@ const data = [
 function Accomodation() {
   return (
     <div>
-    <p className="txtam">Students Who have Applied for Admission</p>
+    <p className="txtam">Students Who have Applied for Accommodation</p>
     <Container>
       <div className="everycard">
         {data.map((student, index) => (

@@ -8,7 +8,9 @@
 .txtcard{
     font-size: 1.5rem !important;
     font-weight: 600 !important;
+    text-decoration: underline #ffb201 !important;
 }
+
 .gap{
     display: flex;
     gap: 3rem;

@@ -2,6 +2,11 @@
   font-size: 1.2rem !important;
   color: #ffb201 !important;
   font-weight: 600 !important;
+  text-decoration: underline white !important;
+}
+.everylink{
+    color: #ffb201 !important;
+    text-decoration: none !important;
 }
 .nav-link:hover {
   font-size: 1.2rem !important;
@@ -11,4 +16,14 @@
 
 .bg-body-tertiary {
   background-color: transparent !important;
+}
+.allgap {
+  display: flex;
+  gap: 2rem;
+}
+@media screen and (max-width: 768px) {
+  .allgap {
+    display: block;
+    gap: 0rem;
+  }
 }
