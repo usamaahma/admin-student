@@ -27,3 +27,12 @@
   font-size: 1.1rem;
   font-weight: 500;
 }
+@media screen and (max-width: 1024px) {
+    .allone {
+        display: block;
+        align-items: center;
+        justify-content: center;
+      }
+
+}
+
