@@ -1,0 +1,29 @@
+.txtam {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+.everycard {
+  margin-bottom: 1rem;
+  background-color: #fffbf2;
+  padding: 10px;
+}
+.student {
+  text-align: left;
+}
+.entry {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+.allone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.andrtxt {
+  font-size: 1.1rem;
+  font-weight: 500;
+}

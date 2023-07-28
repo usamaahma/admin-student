@@ -1,0 +1,15 @@
+.card {
+  background: linear-gradient(135deg, #ffb201 0%, #a27fff 100%);
+  color: white !important;
+  height: 15rem !important;
+  display: flex;
+  justify-content: center;
+}
+.txtcard{
+    font-size: 1.5rem !important;
+    font-weight: 600 !important;
+}
+.gap{
+    display: flex;
+    gap: 3rem;
+}
