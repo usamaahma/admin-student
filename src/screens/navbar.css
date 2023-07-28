@@ -1,0 +1,14 @@
+.nav-link {
+  font-size: 1.2rem !important;
+  color: #ffb201 !important;
+  font-weight: 600 !important;
+}
+.nav-link:hover {
+  font-size: 1.2rem !important;
+  color: black !important;
+  font-weight: 600 !important;
+}
+
+.bg-body-tertiary {
+  background-color: transparent !important;
+}
