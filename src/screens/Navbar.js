@@ -12,7 +12,7 @@ function Navbar1() {
         <Navbar.Brand href="#home">
           <div>
             {" "}
-            <Link to="/">
+            <Link to="/" style={{ textDecoration: "none" }}>
               <img
                 className="logook"
                 alt="abc"
@@ -27,18 +27,28 @@ function Navbar1() {
           <Nav className="me-auto">
             <div className="allgap">
               <Nav.Link href="#home">
-                <Link to="/">
+                <Link
+                  to="/"
+                  style={{ textDecoration: "none", color: "#ffb201" }}
+                >
                   <p className="eveylink">Dashboard</p>
                 </Link>
               </Nav.Link>
               <Nav.Link href="#link">
-                <Link to="/admission" className="eveylink">
-                  <p>Admission</p>
+                <Link
+                  to="/admission"
+                  style={{ textDecoration: "none", color: "#ffb201" }}
+                >
+                  <p className="eveylink">Admission</p>
                 </Link>
               </Nav.Link>
-              <Nav.Link href="#accomodation" className="eveylink">
-                <Link to="/accomodation" className="eveylink">
-                  <p>Accomodation</p>
+              <Nav.Link href="#accomodation">
+                <Link
+                  to="/accomodation"
+                  className="eveylink"
+                  style={{ textDecoration: "none", color: "#ffb201" }}
+                >
+                  <p className="eveylink">Accomodation</p>
                 </Link>
               </Nav.Link>
               <Nav.Link href="#loan" className="eveylink">

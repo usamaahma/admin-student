@@ -1,26 +1,19 @@
 import React, { useEffect, useState } from "react";
-import "./admission.css";
+import "./style.css";
 import { Container } from "react-bootstrap";
 import { course } from "../../helper/axios";
 import { message } from "antd";
-const data = [
-  {
-    id: 1,
-    country: "country",
-    purpose: "purpose",
-    field: "field",
-    education: "education",
-    marks: "marks",
-    intake: "intake",
-    test1: "test1",
-    test1Number: "test1Number",
-    test2: "test2",
-    test2Number: "test2nmbr",
-    workExperience: "workexperience",
-  },
-];
+// const data = [
+//   {
+//     id: 1,
+//     country: "country",
+//     purpose: "purpose",
+//     field: "field",
+//     intake: "intake",
+//   },
+// ];
 
-function Admission() {
+function Scholarships() {
   const [loading, setloading] = useState(true);
   const [data, setdata] = useState([]);
   const getCourse = () => {
@@ -71,33 +64,8 @@ function Admission() {
                   <span className="andrtxt">Field:</span> {student.field}
                 </p>
                 <p>
-                  <span className="andrtxt">Education:</span>{" "}
-                  {student.education}
-                </p>
-                <p>
-                  <span className="andrtxt">Marks:</span> {student.marks}
-                </p>
-                <p>
                   <span className="andrtxt">Intake: </span>
                   {student.intake}
-                </p>
-                <p>
-                  <span className="andrtxt">Test1:</span> {student.test1}
-                </p>
-                <p>
-                  <span className="andrtxt">Test1 Number:</span>{" "}
-                  {student.test1Number}
-                </p>
-                <p>
-                  <span className="andrtxt">Test2:</span> {student.test2}
-                </p>
-                <p>
-                  <span className="andrtxt">Test2 Number:</span>{" "}
-                  {student.test2Number}
-                </p>
-                <p>
-                  <span className="andrtxt">Work Experience:</span>{" "}
-                  {student.workExperience}
                 </p>
               </div>
             </div>
@@ -108,4 +76,4 @@ function Admission() {
   );
 }
 
-export default Admission;
+export default Scholarships;
