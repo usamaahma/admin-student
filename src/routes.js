@@ -5,6 +5,7 @@ import { Route, Routes } from "react-router-dom";
 import Dashboard from "./components/dashboard/Dashboard";
 import Admission from "./components/admission/Admission";
 import Accomodation from "./components/accomodation/Accomodation";
+import Scholarships from "./components/scholarships";
 
 const routes = [
   {
@@ -18,6 +19,10 @@ const routes = [
   {
     path: "/accomodation",
     element: <Accomodation />,
+  },
+  {
+    path: "/scholarships",
+    element: <Scholarships />,
   },
 ];
 

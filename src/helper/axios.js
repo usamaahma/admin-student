@@ -81,4 +81,15 @@ users.interceptors.request.use(
     return Promise.reject(err);
   }
 );
-export { login, users, course, payment, blog, contactUs };
+const accommodation = axios.create({
+  baseURL: `${url}/accommodation`,
+});
+users.interceptors.request.use(
+  (req) => {
+    return req;
+  },
+  (err) => {
+    return Promise.reject(err);
+  }
+);
+export { login, users, course, payment, blog, contactUs, accommodation };
